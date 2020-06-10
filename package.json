@@ -1,6 +1,6 @@
 {
-  "name": "geopattern",
-  "version": "1.2.3+patch-1",
+  "name": "@teamorangeserver/geopattern",
+  "version": "1.2.3-patch-1",
   "description": "Generate beautiful SVG patterns",
   "keywords": [
     "svg",
