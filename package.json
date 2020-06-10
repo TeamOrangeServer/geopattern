@@ -30,6 +30,9 @@
     "type": "git",
     "url": "https://github.com/TeamOrangeServer/geopattern"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "object-assign": "^4.1.1"
   },
