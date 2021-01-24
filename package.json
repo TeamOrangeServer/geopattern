@@ -1,6 +1,6 @@
 {
   "name": "@teamorangeserver/geopattern",
-  "version": "1.2.3-patch-1",
+  "version": "1.2.3-patch-2",
   "description": "Generate beautiful SVG patterns",
   "keywords": [
     "svg",
@@ -11,6 +11,7 @@
   "homepage": "https://github.com/TeamOrangeServer/geopattern",
   "bugs": "https://github.com/TeamOrangeServer/geopattern/issues",
   "license": "MIT",
+  "author": "sousuke0422 <sousuke20xx@gmail.com>",
   "contributors": [
     "Brandon Mills",
     "Jason Long"
@@ -23,7 +24,7 @@
     "lint": "eslint .",
     "mocha": "mocha tests",
     "test": "npm run lint && npm run mocha",
-    "build": "browserify -s GeoPattern -i buffer . | uglifyjs -mc --screw-ie8 > js/geopattern.min.js",
+    "build": "browserify -s GeoPattern -i buffer . | uglifyjs -mc > js/geopattern.min.js",
     "watch": "watchify -s GeoPattern -i buffer . -o js/geopattern.js"
   },
   "repository": {
@@ -37,10 +38,10 @@
     "object-assign": "^4.1.1"
   },
   "devDependencies": {
-    "browserify": "^13.3.0",
-    "eslint": "^7.2.0",
-    "mocha": "^7.2.0",
-    "uglify-js": "^2.7.5",
+    "browserify": "^17.0.0",
+    "eslint": "^7.18.0",
+    "mocha": "^8.2.1",
+    "uglify-js": "^3.12.5",
     "watchify": "^3.11.1",
     "xml-parser": "^1.2.1"
   }
